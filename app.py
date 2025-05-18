@@ -23,11 +23,11 @@ try:
 except Exception:
     pass  # Container likely already exists
 
-server = 'complaint-database-16.database.windows.net'
+server = 'complaint-database-server12.database.windows.net'
 port = 1433
-database = 'complaint-1612'
+database = 'complaint-database128'
 username = 'admin-database'
-password = 'Jatin@1612'
+password = 'JatinN@1612'
 driver = '{ODBC Driver 18 for SQL Server}'
 
 # Azure SQL Setup
